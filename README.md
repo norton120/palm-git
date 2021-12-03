@@ -1,6 +1,8 @@
 ## palm-git
 _utilities for all those annoying git commands_
 
+A plugin for the [`palm` cli framework](https://github.com/palmetto/palm-cli)
+
 Git is great. And git-muscles are fine. But some of us are sick of typing 
 
 `--set-upstream=bla/bla-bla` when it's pretty clear what we want to do. 
