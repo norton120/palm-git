@@ -20,7 +20,7 @@ this_directory = Path(__file__).parent
 long_description = Path(this_directory, 'README.md').read_text()
 
 setup(
-    name='palm-palm-git',
+    name='palm-git',
     version='0.0.1',
     description='palm-git extension for Palm CLI',
     long_description=long_description,
@@ -30,7 +30,7 @@ setup(
     url='',
     packages=find_namespace_packages(include=['palm', 'palm.*']),
     package_data={'': ['*.yaml', '*.yml']},
-    install_requires=['palm>=2.0.0'],
-    license='',
+    install_requires=['palm>=2.1.0'],
+    license='MIT',
     classifiers=[],
 )
